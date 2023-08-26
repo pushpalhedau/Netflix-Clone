@@ -1,0 +1,81 @@
+<html>
+<head>
+<link rel="stylesheet" href="tv_show_styles.css">
+</head>
+
+<body>
+
+<image class="netflix_logo" src="https://www.freepnglogos.com/uploads/netflix-logo-0.png"></image>
+        
+	  <ul class="horizontal_navbar">
+  	  <li><a class="option1" href="final_home.php">Home</a></li>
+  	  <li><a class="option2" href="tv_show1.html">Categories</a></li>
+        <li><a class="option3" href="upcoming.html">Upcoming Shows</a></li>
+  	  <li><a class="option4" href="search.html">Search</a></li>
+	  </ul>
+
+        <p class="genres">Genres</p>
+
+	  <div id="myBtnContainer">
+
+	  <button class="genres_btn active" onclick="filterSelection('all')">Show All</button>
+	  <button class="genres_btn" onclick="filterSelection('action')">Action</button>
+	  <button class="genres_btn" onclick="filterSelection('anime')">Anime</button>
+	  <button class="genres_btn" onclick="filterSelection('crime')">Crime</button>
+	  <button class="genres_btn" onclick="filterSelection('horror')">Horror</button>
+	  <button class="genres_btn" onclick="filterSelection('kids')">Kids</button>
+	  <button class="genres_btn" onclick="filterSelection('korean')">Korean</button>
+	  <button class="genres_btn" onclick="filterSelection('romance')">Romance</button>
+	  <button class="genres_btn" onclick="filterSelection('scifi')">Sci-fi</button>
+	  <button class="genres_btn" onclick="filterSelection('thriller')">Thriller</button>
+
+	  </div>
+
+	  <div class="container">
+	  <image class="tv_show_img action" src="https://img1.hotstarext.com/image/upload/f_auto/sources/r1/cms/prod/4909/474909-h"> 
+	  <image class="tv_show_img scifi" src="https://nerdist.com/wp-content/uploads/2021/05/The-Boys-Season1.jpg">
+	  <image class="tv_show_img crime" src="https://ntvb.tmsimg.com/assets/p8696131_b_h10_aa.jpg?w=1280&h=720">
+	  <image class="tv_show_img anime" src="https://static1.cbrimages.com/wordpress/wp-content/uploads/2021/09/One-Piece-Poster.jpg">
+	  <image class="tv_show_img scifi" src="https://flxt.tmsimg.com/assets/p19407788_b_h8_ab.jpg">
+	  <image class="tv_show_img scifi" src="https://static1.colliderimages.com/wordpress/wp-content/uploads/2021/11/the-expanse-s5-recap.jpg">
+	  <image class="tv_show_img romance" src="https://static.digit.in/OTT/v2/images/college-romance-121846.jpg">
+	  <image class="tv_show_img thriller" src="https://nofilmschool.com/sites/default/files/styles/facebook/public/what_really_happened_at_the_shutter_island_ending_explained.jpg?itok=bY37VB41">
+	  <image class="tv_show_img korean" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSr4MAucrDxqCbLDJXC1kOdVa8D8jlKMgnPdg&usqp=CAU">
+	  <image class="tv_show_img kids" src="http://www.animationkolkata.com/blog/wp-content/uploads/2019/04/photos-of-chhota-bheem-7.jpg">
+	  <image class="tv_show_img horror" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTWwOz7UKIPuPvPVXj1r_73iP00zxDfvivlYQ&usqp=CAU">
+	  <image class="tv_show_img crime" src="https://worldcontentmarket.com/wp-content/uploads/bfi_thumb/The-Art-of-Crime-Poster-6zyz4b19q6zlcpbf3tfjn8r6bkghokzeuwqvl8n3ku8.jpg">
+	  <image class="tv_show_img horror" src="https://i.ytimg.com/vi/0lekBlIsv-0/maxresdefault.jpg">
+	  <image class="tv_show_img thriller" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTr9A3rWqpL4r0ttO7U9hmmWBW0_YVGJzCoIg&usqp=CAU">
+	  <image class="tv_show_img korean" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTXOWJA6Uj2QBMVbSbCrW8pba_7O7Ze1eMqfg&usqp=CAU">
+	  <image class="tv_show_img kids" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ89Hi70Qfnk7zIi8va4oBjT0FuGaSsDxpK_g&usqp=CAU">
+	  <image class="tv_show_img horror" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRe8iKrArn2PZeKDxhzMlIpSwqD6remFGNOAQ&usqp=CAU">
+	  <image class="tv_show_img korean" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQNJm4dNeMgSCj9eAcYzXj4Xt05AE19PxCtbw&usqp=CAU">
+	  <image class="tv_show_img anime" src="https://www.vpnhelpers.com/wp-content/uploads/2020/12/Watch-Naruto-Shippuden-All-21-Seasons-on-Netflix.jpg">
+	  <image class="tv_show_img action" src="https://rukminim2.flixcart.com/image/416/416/jn6ck280/poster/z/e/j/medium-the-walking-dead-tv-series-all-out-war-poster-a4-original-imaf9wn45wrxa6ah.jpeg?q=70">
+	  <image class="tv_show_img anime" src="https://pbs.twimg.com/media/E719gGJVEAA2qA9.jpg">
+	  <image class="tv_show_img horror" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQi1EKC2RNrHB6m2piEaQWm17M6w3OvsA7grA&usqp=CAU">
+	  <image class="tv_show_img crime" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQYJFRLUZenzov0kewTNujf_P3Bt1rpw8LanQ&usqp=CAU">
+	  <image class="tv_show_img action" src="https://i.ytimg.com/vi/Faz9PrY6xF8/maxresdefault.jpg">
+	  <image class="tv_show_img thriller" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTzFdN-T9cOuNfuZSose4RC2mbQbqIRFmqW9A&usqp=CAU">
+	  <image class="tv_show_img kids" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRwD08AjJ1PJWVD_-VJZXTSEt1_Ys-Mazo6Ew&usqp=CAU">
+	  <image class="tv_show_img anime" src="https://sportshub.cbsistatic.com/i/2021/09/07/176a79a3-cf1a-411c-9524-1fd7ca7154d2/jojos-bizarre-adventure-stone-ocean-anime-poster-1278453.jpg">
+	  <image class="tv_show_img korean" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQsqT4xOsN_ZwNaQpet9TPNyi0CnxMKPfDfoA&usqp=CAU">
+	  <image class="tv_show_img horror" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR_sAZcge3a7BIfaaamyHjzcr8sH6Gc7MRNiQ&usqp=CAU">
+	  <image class="tv_show_img action" src="https://rukminim1.flixcart.com/image/416/416/poster/w/j/t/supernatural-posters-tv-series-poster-tvseries-sr-5325-small-original-imaepc3ygd4dagxt.jpeg?q=70">
+	  <image class="tv_show_img anime" src="https://flxt.tmsimg.com/assets/p9065121_b_h10_aa.jpg">
+	  <image class="tv_show_img korean" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ8KslJNzDHosIF2vp3H2n9cq71cNo7ueW9ig&usqp=CAU">
+	  <image class="tv_show_img crime" src="https://upload.wikimedia.org/wikipedia/commons/thumb/8/8e/American_Crime_Story.jpg/250px-American_Crime_Story.jpg">
+	  <image class="tv_show_img horror" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRBJV6QMh4fJWbnKGDvcP-Zu7N_iXOpaxWY4w&usqp=CAU">
+	  <image class="tv_show_img action" src="https://m.media-amazon.com/images/I/71rDWusFpKL._AC_SL1024_.jpg">
+	  <image class="tv_show_img korean" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR3xqLL1k0MejZzceHPSFUeUH9Z2rV71iGjHA&usqp=CAU">
+	  <image class="tv_show_img kids" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcREvpHHOOiCAa84VnL53DJxYRsft_fTmpVrpA&usqp=CAU">
+	  <image class="tv_show_img anime" src="https://www.screentest.xyz/wp-content/uploads/2021/04/5ee34a1a83cb3e001d40a6f2.jpg">
+	  <image class="tv_show_img horror" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRSWIBZD2HGcrdX7gmYQYLnk29a0LPakgs9eg&usqp=CAU">
+	  <image class="tv_show_img romance" src="https://i.ytimg.com/vi/Q0FIkz_kvk4/maxresdefault.jpg">
+
+	  </div>
+
+	  <script src="tv_show_script.js"></script>
+
+</body>	 
+</html>

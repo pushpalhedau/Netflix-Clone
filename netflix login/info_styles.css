@@ -1,0 +1,115 @@
+.bg_img{
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  z-index: -1;
+  object-fit: cover;
+  width: 100%;
+  height: 100%;
+}
+
+.netflix_logo {
+	position:absolute;
+	top:10px;
+	right:23cm;
+  width: 70%;
+  height: 60px;
+}
+
+.showname{
+	font-size:6pc;
+	color:white;
+	position:absolute;
+	top:20px;
+	left:0.5cm;
+}
+
+.trailer_btn{
+	color:white;
+	font-weight:bold;
+	font-size:1.3pc;
+	position: absolute;
+	left:0.5cm;
+	top:13cm;
+	border-width:5px;
+	border-color:white white;
+	background-color:transparent;
+	width:8cm;
+	height:1.3cm;
+}
+
+.trailer_btn:hover{
+	background-color:#696969;
+}
+
+.watch_btn{
+	color:white;
+	font-weight:bold;
+	font-size:1.3pc;
+	position: absolute;
+	left:0.5cm;
+	top:14.5cm;
+	border-width:5px;
+	border-color:white white;
+	background-color:transparent;
+	width:8cm;
+	height:1.3cm;
+
+}
+
+.watch_btn:hover{
+	background-color:#696969;
+}
+
+.explore_btn{
+	color:white;
+	font-weight:bold;
+	font-size:1.3pc;
+	position: absolute;
+	left:0.5cm;
+	top:16cm;
+	border-width:5px;
+	border-color:white white;
+	background-color:transparent;
+	width:8cm;
+	height:1.3cm;
+
+}
+
+.explore_btn:hover{
+	background-color:#696969;
+}
+
+.para{
+	color:white;
+	font-size:1.3pc;
+	position: absolute;
+	left:0.5cm;
+	top:5cm;	
+}
+
+.showmore{
+	color:white;
+	font-weight:bold;
+	font-size:1.3pc;
+	position: absolute;
+	left:0.5cm;
+	top:11.5cm;
+	border-width:5px;
+	border-color:white white;
+	background-color:transparent;
+	width:8cm;
+	height:1.3cm;
+
+}
+
+.showmore:hover{
+	background-color:#696969;
+}
+
+
+.videos{
+	background-color:black;
+	width:100%;
+	height:100%;
+}

@@ -1,0 +1,140 @@
+body{
+	background-color: black;
+	font-family: 'Netflix Font', sans-serif;
+}
+
+.container{
+	overflow: hidden;
+}
+.tv_show_img{
+	width: 360px;
+    height: 200px;
+    text-align: center;
+    margin: 5px;
+    margin-bottom: 7px;
+    padding: 0px;
+    border-radius: 2px;
+    display: none; /* Hidden by default */
+
+}
+
+.tv_show_img:hover{
+	opacity: 0.8;
+	border: 2px solid red;
+}
+
+.show{
+	display: inline-block;
+}
+
+.netflix_logo{
+    padding:0.3cm 1cm;
+    width: 3.5cm;
+    height: 1.2cm;
+}
+
+.horizontal_navbar{
+	background-color:transparent;
+	font-size:0cm;
+	color:transparent;
+}
+
+.option1{
+	background-color:black;
+	font-size: 25px;
+	color:white;
+	text-decoration: none;
+	position:absolute;
+	top: 25px;
+    left: 250px;
+	transition:0s;
+	margin: 4px;
+}
+
+.option2{
+	background-color:black;
+	font-size: 25px;
+	color:white;
+	text-decoration: none;
+	position:absolute;
+	top: 25px;
+    left: 370px;
+	transition:0s;
+	margin: 4px;
+}
+
+.option3{
+	background-color:black;
+	font-size: 25px;
+	color:white;
+	text-decoration: none;
+	position:absolute;
+	top: 25px;
+    left: 530px;
+	transition:0s;
+	margin: 4px;
+}
+
+.option4{
+	background-color:black;
+	font-size: 25px;
+	color:white;
+	text-decoration: none;
+	position:absolute;
+	top: 25px;
+    left: 750px;
+	transition:0s;
+	margin: 4px;}
+
+.option1:hover{
+	font-size: 0.7cm;
+	color: red;
+	transition: 0.5s;
+}
+
+.option2:hover{
+	font-size: 0.7cm;
+	color: red;
+	transition: 0.5s;
+}
+
+.option3:hover{
+	font-size: 0.7cm;
+	color: red;
+	transition: 0.5s;
+}
+
+.option4:hover{
+	font-size: 0.7cm;
+	color: red;
+	transition: 0.5s;
+}
+
+.genres{
+    margin:1cm 0cm 0.3cm 0.75cm;
+    color:white;
+    font-size:0.9cm;
+    font-weight:bold;
+}
+
+.genres_btn{
+	width:9.72%;
+	height:13.5%;
+	background-color:black;
+	color:white;
+	font-size:1.4pc;
+	margin-bottom: 10px;
+}
+.genres_btn.active{
+	color: red;
+	border-bottom: 3px solid red;
+}
+
+.genres_btn:hover{
+	color: red;
+	transition: 1s;
+  	border-bottom: 3px solid red;
+}
+
+
+

@@ -1,0 +1,119 @@
+body{
+	background-color: black;
+	font-family: 'Netflix Font', sans-serif;
+}
+
+
+.netflix_logo{
+    padding:0.3cm 1cm;
+    width: 3.5cm;
+    height: 1.2cm;
+}
+
+.horizontal_navbar{
+	background-color:transparent;
+	font-size:0cm;
+	color:transparent;
+}
+
+.option1{
+	background-color:black;
+	font-size: 25px;
+	color:white;
+	text-decoration: none;
+	position:absolute;
+	top: 25px;
+    left: 250px;
+	transition:0s;
+	margin: 4px;
+}
+
+.option2{
+	background-color:black;
+	font-size: 25px;
+	color:white;
+	text-decoration: none;
+	position:absolute;
+	top: 25px;
+    left: 370px;
+	transition:0s;
+	margin: 4px;
+}
+
+.option3{
+	background-color:black;
+	font-size: 25px;
+	color:white;
+	text-decoration: none;
+	position:absolute;
+	top: 25px;
+    left: 530px;
+	transition:0s;
+	margin: 4px;
+}
+
+.option4{
+	background-color:black;
+	font-size: 25px;
+	color:white;
+	text-decoration: none;
+	position:absolute;
+	top: 25px;
+    left: 750px;
+	transition:0s;
+	margin: 4px;
+}
+
+.option1:hover{
+	font-size: 0.7cm;
+	color: red;
+	transition: 0.5s;
+}
+
+.option2:hover{
+	font-size: 0.7cm;
+	color: red;
+	transition: 0.5s;
+}
+
+
+.option3:hover{
+	font-size: 0.7cm;
+	color: red;
+	transition: 0.5s;
+}
+
+.option4:hover{
+	font-size: 0.7cm;
+	color: red;
+	transition: 0.5s;
+}
+
+
+.options{
+	color:white;
+	border-radius:7px;
+	font-size:25px;	
+	background-color:gray;
+	margin:30px 0px 0px 40px;
+	width:50%;
+	height:50px;
+}
+
+
+
+.search_img{
+	border-radius:5px;
+	width:15%;
+	height:40%;
+}
+
+.img{
+	padding:0px 20px 0px 0px;
+	font-size:0px;
+	color:white;
+}
+
+.li{
+	display:inline;
+}
